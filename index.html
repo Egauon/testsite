@@ -6,7 +6,7 @@
 
 <script>
 
-Ask("title", "title").then(function(data){
+Ask('title', {title: 'hi'}).then(function(data){
   document.getElementById("title").innerHTML = data;
   alert("succ");
 })
