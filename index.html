@@ -6,8 +6,9 @@
 
 <script>
 
-Ask("title", function(data){
-document.getElementById("title").innerHTML = data;
+Ask("title", "title").then(function(data){
+  document.getElementById("title").innerHTML = data;
+  alert("succ");
 })
   
 </script>
